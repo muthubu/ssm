@@ -1,0 +1,107 @@
+*{
+    box-sizing: content-box;
+}
+a{
+    text-decoration: none !important;
+}
+nav{
+    font-size: large;
+}
+.nav-link:hover{
+    color: rgb(2, 184, 170) !important;
+}
+
+.nav-item .active{
+    color: rgb(2, 184, 170) !important;
+}
+
+.buttn{
+    background-color: rgb(2, 184, 170);
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+}
+
+.buttn:hover{
+    background-color: rgba(0, 0, 0, 0.027);
+    color: rgb(2, 184, 170);
+    border: 1px solid rgb(2, 184, 170);
+}
+
+/* home*/
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(black,black),url(./img/computer\ working.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: bgimg 10s infinite;
+}
+@keyframes bgimg{
+    0%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.541)),url(./img/computer\ working.avif);
+    }
+    40%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.548)),url(./img/create\ website.avif);
+    }
+    70%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.644)),url(./img/website.avif);
+    }
+    100%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575)),url(./img/worldmap.jpg);
+    }
+}
+
+/* our works */
+.ourWorks{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+}
+.ow-head{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.blue .card-body{
+    background-color: rgb(2, 184, 170);
+    border-radius:0 0 5px 5px;
+}
+
+.black .card-body{
+    color: rgb(2, 184, 170);
+    background-color: rgb(25, 26, 25);
+    border-radius:0 0 5px 5px;
+}
+
+.blue .card:hover{
+    border: 2px solid rgb(2, 184, 170);
+}
+
+.black .card:hover{
+    border: 2px solid rgb(32, 32, 32);
+}
+.blue:hover img{
+    padding: 5px;
+    background-color: rgb(2, 184, 170);
+}
+.black:hover img{
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+}
+
+footer{
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+}
