@@ -9,6 +9,7 @@ nav{
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: 0 0 10px rgb(2, 184, 170);
 }
 .nav-link:hover{
     color: rgb(2, 184, 170) !important;
@@ -106,6 +107,7 @@ nav{
     background-color: rgb(34, 34, 34);
 }
 
+/* FOOTER*/
 footer{
     color: white;
     background-color: black;
