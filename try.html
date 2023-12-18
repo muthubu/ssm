@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ss{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+}
+
+.c1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/computer\ working.avif");
+    height: 500px;
+    width: 100%;
+}
+.c2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/website.avif");
+    height: 500px;
+    width: 100%;
+}
+.c3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/create\ website.avif");
+    height: 500px;
+    width: 100%;
+}
+.animate
+{
+    position:relative;
+    animation:animatetop 8s;
+}
+@keyframes animatetop{
+    0% {top:-500px;opacity:0}
+    50%{top:0;opacity:1;animation-delay: 1s;}
+    80%{top:-150;opacity:1}
+    100%{top:-500px;opacity:0}
+}
+
+.leftani{
+    position: relative;
+    animation: left 8s;
+}
+@keyframes left{
+    0% {left:-500px;opacity:0}
+    50%{left:0;opacity:1;animation-delay: 1s;}
+    80%{left:-150;opacity:1}
+    100%{left:-500px;opacity:0}
+}
+.rightani{
+    position: relative;
+    animation: right 8s;
+}
+@keyframes right{
+    0% {right:-500px;opacity:0}
+    50%{right:0;opacity:1;animation-delay: 1s;}
+    80%{right:-150;opacity:1}
+    100%{right:-500px;opacity:0}
+}
+.downani{
+    position: relative;
+    animation: down 8s;
+}
+@keyframes down{
+    0% {bottom:-500px;opacity:0}
+    50%{bottom:0;opacity:1;animation-delay: 1s;}
+    80%{bottom:-150;opacity:1}
+    100%{bottom:-500px;opacity:0}
+}
+    </style>
+</head>
+<body>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item c1 active">
+              <center style="padding-top: 30px;">
+                <div class="animate"><h1> Top animate</h1></div>
+                <div class="leftani"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt neque eaque debitis nostrum illo doloremque nisi voluptatibus expedita fugiat.</p></div>
+                <div class="rightani"><h1>button</h1></div>
+                <div class="downani"><h1>Tags</h1></div>
+              </center>
+          </div>
+          <div class="carousel-item c2">
+            <center style="padding-top: 30px;">
+              <div class="animate"><h1> Top animate</h1></div>
+                <div class="leftani"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt neque eaque debitis nostrum illo doloremque nisi voluptatibus expedita fugiat.</p></div>
+                <div class="rightani"><h1>button</h1></div>
+                <div class="downani"><h1>Tags</h1></div>
+            </center>
+          </div>
+          <div class="carousel-item c3">
+            <center style="padding-top: 30px;">
+              <div class="animate"><h1> Top animate</h1></div>
+                <div class="leftani"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt neque eaque debitis nostrum illo doloremque nisi voluptatibus expedita fugiat.</p></div>
+                <div class="rightani"><h1>button</h1></div>
+                <div class="downani"><h1>Tags</h1></div>
+            </center>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
