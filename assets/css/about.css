@@ -1,0 +1,66 @@
+.aboutHead{
+    margin-top: 40px;
+}
+.ss{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+}
+
+.c1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/computer\ working.avif");
+    height: 500px;
+    width: 100%;
+}
+.c2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/website.avif");
+    height: 500px;
+    width: 100%;
+}
+.c3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.582)),url("/assets/img/create\ website.avif");
+    height: 500px;
+    width: 100%;
+}
+.animate
+{
+    position:relative;
+    animation:animatetop 8s;
+}
+@keyframes animatetop{
+    0% {top:-500px;opacity:0}
+    50%{top:0;opacity:1;animation-delay: 1s;}
+    80%{top:-150;opacity:1}
+    100%{top:-500px;opacity:0}
+}
+
+.leftani{
+    position: relative;
+    animation: left 8s;
+}
+@keyframes left{
+    0% {left:-500px;opacity:0}
+    50%{left:0;opacity:1;animation-delay: 1s;}
+    80%{left:-150;opacity:1}
+    100%{left:-500px;opacity:0}
+}
+.rightani{
+    position: relative;
+    animation: right 8s;
+}
+@keyframes right{
+    0% {right:-500px;opacity:0}
+    50%{right:0;opacity:1;animation-delay: 1s;}
+    80%{right:-150;opacity:1}
+    100%{right:-500px;opacity:0}
+}
+.downani{
+    position: relative;
+    animation: down 8s;
+}
+@keyframes down{
+    0% {bottom:-500px;opacity:0}
+    50%{bottom:0;opacity:1;animation-delay: 1s;}
+    80%{bottom:-150;opacity:1}
+    100%{bottom:-500px;opacity:0}
+}    

@@ -5,7 +5,10 @@ a{
     text-decoration: none !important;
 }
 nav{
-    font-size: large;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .nav-link:hover{
     color: rgb(2, 184, 170) !important;
@@ -33,29 +36,29 @@ nav{
     color: rgb(2, 184, 170);
     border: 1px solid rgb(2, 184, 170);
 }
-
+.warp{
+    overflow: hidden;
+}
 /* home*/
 .home{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(black,black),url(./img/computer\ working.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: bgimg 10s infinite;
+    width: 3699px;
+    height: 560px;
+    background: linear-gradient(rgba(0, 0, 0, 0.589),rgba(0, 0, 0, 0.623)),url("./img/images\ \(1\).png") repeat-x;
+    animation: slide 25s linear infinite;
 }
-@keyframes bgimg{
+@keyframes slide{
     0%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.541)),url(./img/computer\ working.avif);
-    }
-    40%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.548)),url(./img/create\ website.avif);
-    }
-    70%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.644)),url(./img/website.avif);
+        transform: translate3d(0, 0, 0);    
     }
     100%{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575)),url(./img/worldmap.jpg);
+        transform: translate3d(-1233px, 0, 0);
     }
+}
+
+.company{
+    position: relative;
+    top: 100px;
+    z-index: 100;
 }
 
 /* our works */
@@ -68,9 +71,16 @@ nav{
     padding-top: 80px;
     padding-bottom: 20px;
 }
+.blue{
+    border: 1px solid rgb(2, 184, 170) !important;
+    border-radius:0 0 5px 5px;
+}
 
 .blue .card-body{
     background-color: rgb(2, 184, 170);
+}
+.black{
+    border: 1px solid black !important;
     border-radius:0 0 5px 5px;
 }
 
@@ -103,5 +113,28 @@ footer{
     bottom: 0;
     width: 100%;
     height: fit-content;
-    padding: 5px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 80%;
+}
+
+small{
+    font-size: 13px !important;
+}
+.footcontact{
+    border-right: 1px solid rgb(2, 184, 170);
+}
+.footcontact p:hover{
+    color: rgb(2, 184, 170);
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    line-height: 200%;
+}
+.social a:hover{
+    color: rgb(2, 184, 170);
 }
