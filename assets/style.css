@@ -1,0 +1,140 @@
+*{
+    box-sizing: content-box;
+}
+a{
+    text-decoration: none !important;
+}
+nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-link:hover{
+    color: rgb(2, 184, 170) !important;
+}
+
+.nav-item .active{
+    color: rgb(2, 184, 170) !important;
+}
+
+.buttn{
+    background-color: rgb(2, 184, 170);
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+}
+
+.buttn:hover{
+    background-color: rgba(0, 0, 0, 0.027);
+    color: rgb(2, 184, 170);
+    border: 1px solid rgb(2, 184, 170);
+}
+.warp{
+    overflow: hidden;
+}
+/* home*/
+.home{
+    width: 3699px;
+    height: 560px;
+    background: linear-gradient(rgba(0, 0, 0, 0.589),rgba(0, 0, 0, 0.623)),url("./img/images\ \(1\).png") repeat-x;
+    animation: slide 25s linear infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translate3d(0, 0, 0);    
+    }
+    100%{
+        transform: translate3d(-1233px, 0, 0);
+    }
+}
+
+.company{
+    position: relative;
+    top: 100px;
+    z-index: 100;
+}
+
+/* our works */
+.ourWorks{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+}
+.ow-head{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.blue{
+    border: 1px solid rgb(2, 184, 170) !important;
+    border-radius:0 0 5px 5px;
+}
+
+.blue .card-body{
+    background-color: rgb(2, 184, 170);
+}
+.black{
+    border: 1px solid black !important;
+    border-radius:0 0 5px 5px;
+}
+
+.black .card-body{
+    color: rgb(2, 184, 170);
+    background-color: rgb(25, 26, 25);
+    border-radius:0 0 5px 5px;
+}
+
+.blue .card:hover{
+    border: 2px solid rgb(2, 184, 170);
+}
+
+.black .card:hover{
+    border: 2px solid rgb(32, 32, 32);
+}
+.blue:hover img{
+    padding: 5px;
+    background-color: rgb(2, 184, 170);
+}
+.black:hover img{
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+}
+
+footer{
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 80%;
+}
+
+small{
+    font-size: 13px !important;
+}
+.footcontact{
+    border-right: 1px solid rgb(2, 184, 170);
+}
+.footcontact p:hover{
+    color: rgb(2, 184, 170);
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    line-height: 200%;
+}
+.social a:hover{
+    color: rgb(2, 184, 170);
+}

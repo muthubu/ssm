@@ -1,0 +1,26 @@
+.workHead{
+    color: rgb(2, 184, 170);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.whead{
+    font-size: small;
+    color: gray;
+}
+.whead:hover{
+    color: black;
+    border-top: 2px solid rgb(2, 184, 170);
+}
+
+.cb{
+    border: none;
+}
+
+.ico{
+    height: 50px;
+}
+
+.card:hover{
+    border-right: 5px solid rgb(2, 184, 170);
+    border-radius: 0 5px 0 5px; 
+}
