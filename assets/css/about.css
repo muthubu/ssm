@@ -3,19 +3,19 @@
 }
 
 .cbg-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url(/assets/img/website.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/website.avif");
     height: fit-content;
     width: 100%;
     padding: 30px;
 }
 .cbg-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url(/assets/img/computer\ working.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/computer\ working.avif");
     height: fit-content;
     width: 100%;
     padding: 30px;
 }
 .cbg-3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url(/assets/img/create\ website.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/create\ website.avif");
     height: fit-content;
     width: 100%;
     padding: 30px;
