@@ -1,0 +1,33 @@
+.contactHead{
+    margin: 30px;
+}
+
+.forms{
+    background-color: lightgrey;
+    padding-bottom: 40px;
+}
+.mail,.call{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    margin: 10px;
+    background-color: rgb(211, 243, 243);
+    border-radius: 20px;
+    width: 85%;
+    color: darkcyan;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.fr{
+    float: right;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+/* loction */
+.location{
+    padding: 30px;
+    color: white;
+    background-color: rgb(2, 184, 170);
+}
