@@ -1,0 +1,149 @@
+/* Home */
+.home{
+    height: fit-content;
+    width: 100%;
+}
+.c1
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 255, 255, 0.089)),url("/assets/img/computer\ working.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.c2
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 255, 255, 0.096)),url("/assets/img/homebg/homebg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.c3
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 255, 255, 0.096)),url("/assets/img/homebg/homebg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.animate
+{
+    position:relative;
+    animation:animatetop 4s;
+    color: rgb(2, 184, 170);
+}
+@keyframes animatetop{
+    from {top:-100px;opacity:0}
+    to{top:0;opacity:1;}
+}
+
+.leftani{
+    position: relative;
+    animation: left 4s;
+    color: white;
+}
+@keyframes left{
+    from {left:-100px;opacity:0}
+    to{left:0;opacity:1;}
+}
+.rightani{
+    position: relative;
+    animation: right 4s;
+    color: lightgray;
+}
+@keyframes right{
+    from {right:-100px;opacity:0}
+    to{right:0;opacity:1;}
+}
+.downani{
+    position: relative;
+    animation: down 4s;
+    padding: 10px;
+    background-color: rgb(2, 184, 170);
+    color: black;
+    border: 2px solid rgb(2, 184, 170);
+    border-radius: 10px;
+}
+@keyframes down{
+    from {bottom:-100px;opacity:0}
+    to{bottom:0;opacity:1;}
+}
+
+.content{
+    padding: 30px;
+}
+
+
+/* our works */
+.ourWorks{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+}
+.ow-head{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.blue{
+    border: 1px solid rgb(2, 184, 170) !important;
+    border-radius:0 0 5px 5px;
+}
+
+.blue .card-body{
+    background-color: rgb(2, 184, 170);
+}
+.black{
+    border: 1px solid black !important;
+    border-radius:0 0 5px 5px;
+}
+
+.black .card-body{
+    color: rgb(2, 184, 170);
+    background-color: rgb(25, 26, 25);
+    border-radius:0 0 5px 5px;
+}
+
+.blue .card:hover{
+    border: 2px solid rgb(2, 184, 170);
+}
+
+.black .card:hover{
+    border: 2px solid rgb(32, 32, 32);
+}
+.blue:hover img{
+    padding: 5px;
+    background-color: rgb(2, 184, 170);
+}
+.black:hover img{
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+}
+
+/* our team */
+.icon{
+    height: 100px;
+    padding: 20px;
+}
+
+.icon:hover{
+    color: gray !important;
+}
+
+.teamHead h2{
+    color: rgb(2, 184, 170);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* count */
+.count{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.685),rgba(0, 0, 0, 0.699)), url("/assets/img/computer\ working.avif");
+    background-attachment: fixed;
+    height: fit-content;
+    width: 100%;
+    color: rgb(2, 184, 170);
+}

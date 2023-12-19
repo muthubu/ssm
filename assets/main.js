@@ -1,14 +1,13 @@
-let blue = document.querySelectorAll(".blue")
-let black = document.querySelectorAll(".black")
+$(function() {
+  $('.counter').countUp({
+    delay: 10,
+    time: 1500
+    });
 
-function wCard(){
-  location.href = "./work.html"
-}
-
-for(let i=0;i<blue.length;i++){
-  blue[i].addEventListener("click",wCard)
-  black[i].addEventListener("click",wCard)
-}
+  $('.blue , .black').click(()=>{
+    location.href = "./work.html"
+  })
+})
 
 //carousel
 const myCarouselElement = document.querySelector('#myCarousel')
@@ -19,4 +18,5 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
   touch: false
 })
 
-//work card
+
+ 

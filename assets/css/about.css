@@ -47,9 +47,18 @@
 .serviceHead{
     padding: 30px;
 }
+
+.card-body {
+    background-color: black;
+}
+.card-title{
+    color: white !important;
+}
 .card:hover .card-body{
     background-color:  rgb(2, 184, 170);
-    color: white;
+}
+.card:hover{
+    border: 1px solid rgb(2, 184, 170);
 }
 .card:hover .card-body p{
     color: black !important;
