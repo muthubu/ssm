@@ -41,6 +41,20 @@ nav{
     overflow: hidden;
 }
 
+/* bottom animation */
+.op{
+    opacity: 0;
+}
+.bottomani{
+    position: relative;
+    animation: botom 2s;
+}
+
+@keyframes botom{
+    from {bottom:-150px;opacity:0}
+    to{bottom:0;opacity:1;}
+}
+
 /* FOOTER*/
 footer{
     color: white;
