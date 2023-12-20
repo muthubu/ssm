@@ -17,17 +17,25 @@
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: black; z-index: 999;">
         <div class="container">
             <a href="#" class="navbar-brand ps-4 pe-5"><img src="./assets/img/logo/ssm logo Final Logo.png" height="40px"><b style="letter-spacing: 4px; font-size: large;">SSM</b></a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarcollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarcollapse">
-                <ul class="navbar-nav nav-underline ps-5 mx-auto">
+            <div class="offcanvas offcanvas-end" id="navbarcollapse">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo/ssm logo Final Logo.png" height="40px"> sanse smart media</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav nav-underline ps-5 mx-auto">
                     <li class="nav-item"><a href="./index.html" class="nav-link pe-2 me-2" style="color: white;"><b>Home</b></a></li>
                     <li class="nav-item"><a href="./work.html" class="nav-link pe-2 me-2" style="color:white;"><b>Work</b></a></li>
                     <li class="nav-item"><a href="#" class="nav-link pe-2 me-2" style="color: white;"><b>gallery</b></a></li>
                     <li class="nav-item"><a href="./about.html" class="nav-link pe-2 me-2" style="color: white;"><b>About Us</b></a></li>                    
                 </ul>
-                <a href="./contact.html" class="buttn ms-auto">Contact <i class="fa-solid fa-arrow-right fa-fade ps-3"></i></a>  
+                <div class="pt-2 ps-4">
+                  <a href="./contact.html" class="buttn ms-auto">Contact <i class="fa-solid fa-arrow-right fa-fade ps-3"></i></a>
+                </div>
+                </div>  
             </div>
         </div>
     </nav>
@@ -86,7 +94,7 @@
             </div>
         </div>
         <div class="pt-5">
-          <center><p><small>@copyrights by ssm</small></p></center>
+          <center><p><small>@copyrights by <img src="./assets/img/logo/ssm logo Final Logo.png" height="20px"> sanse smart media</small></p></center>
         </div>
       </footer>
 
