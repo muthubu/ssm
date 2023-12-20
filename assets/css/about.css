@@ -4,26 +4,31 @@
 
 .cbg-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/website.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: fit-content;
     width: 100%;
     padding: 30px;
 }
 .cbg-2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/computer\ working.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: fit-content;
     width: 100%;
     padding: 30px;
 }
 .cbg-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.822)),url("../img/create\ website.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: fit-content;
     width: 100%;
     padding: 30px;
 }
 
 .aboutcarouselimg{
-    height: 60px;
-    width: 45px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 20px;
 }
